@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container mt-5 bg-transparent shadow-lg w-75 mx-auto text-center p-5">
+        <h2 class="text-info mb-4">SMART LOGIN SYSTEM</h2>
+        <div class="mb-3">
+            <input type="text" class="form-control bg-transparent text-white" id="usernameInput" placeholder="ENTER YOUR NAME">
+            <p id="usernameAlert" class="d-none text-danger"> include at least 3 lettter statrting with capital</p>
+        </div>
+        <div class="mb-3">
+            <input type="email" class="form-control bg-transparent text-white" id="userEmailInput" placeholder="ENTER YOUR EMAIL">
+            <p id="userEmailAlert" class="d-none text-danger"> name@example.com</p>
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control bg-transparent text-white" id="userPasswordInput" placeholder="ENTER YOUR EMAIL">
+            <p id="userPasswordAlert" class="d-none text-danger"> you must strenth your passsword</p>
+        </div>
+        <p class="text-success d-none"  id="confirmMsg">success</p>
+        <p class="text-danger d-none mb-0"  id="accountExistMsg">this account is exist try another one</p>
+        <p class="text-danger d-none mb-0"  id="tryAgainMsg"> sign up failed please try again</p>
+        <a id="signupBtn" onclick="signUp()" class="btn btn-outline-info w-100 mb-3 mt-4 text-decoration-none">sign up</a>
+        <p class="text-black d-block"  id="">you have an account <a href="index.html" class="text-white text-decoration-none"></a></p>
+        <a href="index.html" class="d-none btn btn-outline-success text-white w-25 m-auto" id="signin">sign in</a>
+    
+    
+    
+    </div>
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
